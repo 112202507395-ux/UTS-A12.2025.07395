@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ruang Biji menyediakan biji kopi pilihan dari berbagai daerah Indonesia.">
+  <title>Ruang Biji — Biji Kopi Nusantara</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">BIJI KOPI PILIHAN NUSANTARA · DIPILIH DENGAN SEPENUH HATI</div>
+  <header>
+    <nav class="container nav" aria-label="Navigasi utama">
+      <a class="brand" href="#beranda"><span class="brand-mark">☕</span><span>ruang biji</span></a>
+      <div class="nav-links">
+        <a href="#beranda">Beranda</a><a href="#produk">Produk</a><a href="#cerita">Cerita Kami</a><a href="#formulir">Formulir</a>
+      </div>
+      <a class="nav-cta" href="#kalkulator">Hitung Pesanan ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">✦ Dari petani, untuk penikmat kopi</span>
+          <h1>Temukan cerita di setiap <em>seduhan.</em></h1>
+          <p class="hero-copy">Biji kopi pilihan dari tanah Nusantara, dipilih dengan teliti agar setiap cangkir punya rasa dan cerita yang istimewa.</p>
+          <div class="hero-actions"><a class="btn" href="#produk">Jelajahi Produk ↗</a><a class="btn btn-outline" href="#cerita">Cerita Ruang Biji</a></div>
+          <div class="proof"><div class="avatars"><span class="avatar">☕</span><span class="avatar">🌱</span><span class="avatar">🫘</span><span class="avatar">♡</span></div><div><strong>Dari kebun pilihan Indonesia</strong><small>Menjaga kualitas dari biji hingga seduhan</small></div></div>
+        </div>
+        <div class="hero-visual">
+        
+  
+          
+        </div>
+      </div>
+    </section>
+
+    <div class="stats"><div class="container stats-grid"><div class="stat"><strong>3</strong><span>Varian kopi pilihan</span></div><div class="stat"><strong>100%</strong><span>Biji kopi pilihan</span></div><div class="stat"><strong>Nusantara</strong><span>Asal beragam daerah</span></div><div class="stat"><strong>Fresh</strong><span>Fokus pada kualitas</span></div></div></div>
+
+    <section id="produk">
+      <div class="container">
+        <div class="section-head"><div><span class="section-kicker">Pilihan Ruang Biji</span><h2>Temukan biji favoritmu.</h2></div><p class="section-desc">Setiap daerah menghadirkan karakter rasa yang berbeda. Pilih varian yang paling sesuai dengan seleramu.</p></div>
+        <div class="filters" aria-label="Filter produk"><button class="filter active" data-filter="semua" type="button">Semua</button><button class="filter" data-filter="arabika" type="button">Arabika</button><button class="filter" data-filter="robusta" type="button">Robusta</button></div>
+        <div class="product-grid">
+          <article class="product-card" data-type="arabika" data-origin="Gayo, Aceh" data-name="Arabika Gayo" data-price="135000" data-desc="Kopi Arabika Gayo dikenal dengan aroma yang harum, body seimbang, dan karakter rasa yang nyaman dinikmati." data-notes="Aroma: floral · Rasa: seimbang · Cocok untuk: seduhan manual">
+            <div class="product-image" tabindex="0" role="button" aria-label="Lihat detail Arabika Gayo"><img src="https://images.unsplash.com/photo-1559525839-b184a4d698c7?auto=format&fit=crop&w=900&q=80" alt="Biji kopi Arabika Gayo" loading="lazy"><span class="tag">Favorit</span><span class="zoom-hint">Lihat detail ↗</span></div>
+            <div class="product-info"><span class="origin">Gayo, Aceh</span><h3>Arabika Gayo</h3><p>Aroma harum dengan karakter rasa yang seimbang dan nyaman.</p><div class="product-bottom"><div class="price"><strong>Rp135.000</strong><small>per kg</small></div><button class="add-btn" data-add type="button">Pilih produk +</button></div></div>
+          </article>
+          <article class="product-card" data-type="arabika" data-origin="Kintamani, Bali" data-name="Arabika Kintamani" data-price="150000" data-desc="Arabika Kintamani memiliki karakter cerah dan segar yang terinspirasi dari lingkungan tumbuhnya di Bali." data-notes="Aroma: segar · Rasa: cerah · Cocok untuk: pour over">
+            <div class="product-image" tabindex="0" role="button" aria-label="Lihat detail Arabika Kintamani"><img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=900&q=80" alt="Biji kopi Arabika Kintamani" loading="lazy"><span class="tag">Karakter segar</span><span class="zoom-hint">Lihat detail ↗</span></div>
+            <div class="product-info"><span class="origin">Kintamani, Bali</span><h3>Arabika Kintamani</h3><p>Karakter cerah dan segar untuk pengalaman seduh yang berbeda.</p><div class="product-bottom"><div class="price"><strong>Rp150.000</strong><small>per kg</small></div><button class="add-btn" data-add type="button">Pilih produk +</button></div></div>
+          </article>
+          <article class="product-card" data-type="robusta" data-origin="Temanggung, Jawa Tengah" data-name="Robusta Temanggung" data-price="95000" data-desc="Robusta Temanggung memiliki body kuat dan karakter rasa tegas, cocok bagi penikmat kopi dengan seduhan yang mantap." data-notes="Aroma: kuat · Rasa: tegas · Cocok untuk: kopi susu dan tubruk">
+            <div class="product-image" tabindex="0" role="button" aria-label="Lihat detail Robusta Temanggung"><img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=900&q=80" alt="Biji kopi Robusta Temanggung" loading="lazy"><span class="tag">Body kuat</span><span class="zoom-hint">Lihat detail ↗</span></div>
+            <div class="product-info"><span class="origin">Temanggung, Jawa Tengah</span><h3>Robusta Temanggung</h3><p>Rasa tegas dengan body kuat untuk seduhan yang mantap.</p><div class="product-bottom"><div class="price"><strong>Rp95.000</strong><small>per kg</small></div><button class="add-btn" data-add type="button">Pilih produk +</button></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="calculator-section" id="kalkulator">
+      <div class="container calculator-grid">
+        <div class="calculator-copy"><span class="section-kicker">Kalkulator sederhana</span><h2>Rencanakan pesananmu.</h2><p>Sesuaikan jenis kopi, jumlah, dan ongkos kirim untuk melihat perkiraan total biaya. Harga ini merupakan simulasi dan belum menjadi transaksi.</p><div class="mini-benefits"><div class="mini-benefit"><span class="check">✓</span>Rincian harga dan subtotal transparan</div><div class="mini-benefit"><span class="check">✓</span>Jumlah pesanan dapat disesuaikan</div><div class="mini-benefit"><span class="check">✓</span>Ringkasan mudah disalin</div></div></div>
+        <div class="calculator"><h3>Kalkulator pesanan</h3><p class="calc-sub">Isi detail pesanan untuk menghitung estimasi biaya.</p>
+          <div class="field"><label for="buyer">Nama pembeli (opsional)</label><input id="buyer" type="text" placeholder="Nama kamu"></div>
+          <div class="field-grid"><div class="field"><label for="coffee">Pilih jenis kopi</label><select id="coffee"><option value="135000" data-name="Arabika Gayo">Arabika Gayo</option><option value="150000" data-name="Arabika Kintamani">Arabika Kintamani</option><option value="95000" data-name="Robusta Temanggung">Robusta Temanggung</option></select></div><div class="field"><label for="qty">Jumlah (kg)</label><input id="qty" type="number" min="1" max="10000" value="5" required></div></div>
+          <div class="field-grid"><div class="field"><label for="price">Harga per kg (Rp)</label><input id="price" type="number" min="0" value="135000" required></div><div class="field"><label for="shipping">Ongkos kirim (Rp)</label><input id="shipping" type="number" min="0" value="15000" required></div></div>
+          <div class="total-box"><div class="total-label">Estimasi total pesanan</div><div class="total-amount" id="totalBottom">Rp690.000</div><div class="total-breakdown"><div class="breakdown-row"><span id="subtotalLabel">Subtotal (5 kg)</span><span id="subtotal">Rp675.000</span></div><div class="breakdown-row"><span>Ongkos kirim</span><span id="shippingAmount">Rp15.000</span></div><div class="breakdown-row grand"><span>Total</span><span id="grandTotal">Rp690.000</span></div></div></div>
+          <div class="calc-actions"><button class="btn" id="copySummary" type="button">Salin ringkasan ↗</button><button class="btn btn-outline" id="resetCalc" type="button">Reset</button></div><p class="note">Harga dan ongkos kirim hanya estimasi. Konfirmasikan harga serta ketersediaan sebelum melakukan transaksi.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="cerita"><div class="container story-grid"><div class="story-photo"><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1100&q=85" alt="Kopi disiapkan untuk dinikmati" loading="lazy"></div><div class="story-copy"><span class="section-kicker">Cerita Ruang Biji</span><h2>Lebih dari sekadar secangkir kopi.</h2><p>Ruang Biji hadir untuk memperkenalkan karakter biji kopi dari berbagai daerah Indonesia. Kami percaya bahwa setiap daerah, proses, dan cara seduh memberi cerita yang berbeda.</p><p>Melalui pilihan produk yang beragam, kami ingin membantu penikmat kopi mengenal asal biji dan menemukan rasa yang sesuai dengan preferensi masing-masing.</p><div class="story-points"><div class="story-point"><strong>🌱 Pilihan biji</strong><span>Memperkenalkan kopi dari berbagai daerah.</span></div><div class="story-point"><strong>☕ Cerita rasa</strong><span>Mengenal karakter setiap varian.</span></div></div><a class="btn" href="#produk">Lihat pilihan kopi ↗</a></div></div></section>
+
+    <section class="quote-section"><div class="container"><div class="quote-card"><div><span class="section-kicker">Temukan favoritmu</span><h2>Setiap biji punya cerita. Temukan ceritamu.</h2><p>Jelajahi pilihan kopi Ruang Biji dan pilih karakter rasa yang cocok untuk momenmu.</p></div><a class="btn" href="#produk">Jelajahi produk ↗</a></div></div></section>
+
+    <section class="customer-form-section" id="formulir"><div class="container"><div class="section-head"><div><span class="section-kicker">Formulir pelanggan</span><h2>Kenali pelanggan kami.</h2></div><p class="section-desc">Silakan isi formulir berikut dengan data yang sesuai.</p></div>
+      <div class="customer-form-card"><form id="customerForm" class="needs-validation" novalidate>
+        <div class="mb-3"><label class="form-label" for="nama">Nama</label><input class="form-control" id="nama" name="nama" type="text" placeholder="Masukkan nama lengkap" required><div class="invalid-feedback">Nama wajib diisi.</div></div>
+        <div class="mb-3"><label class="form-label" for="alamat">Alamat</label><textarea class="form-control" id="alamat" name="alamat" rows="4" placeholder="Masukkan alamat lengkap" required></textarea><div class="invalid-feedback">Alamat wajib diisi.</div></div>
+        <div class="mb-3"><label class="form-label" for="kota">Kota</label><select class="form-select" id="kota" name="kota" required><option value="" selected disabled>Pilih kota</option><option>Semarang</option><option>Kudus</option><option>Demak</option><option>Pekalongan</option><option>Tegal</option><option>Surabaya</option><option>Jakarta</option></select><div class="invalid-feedback">Silakan pilih kota.</div></div>
+        <fieldset><legend>Hobi</legend><div class="hobby-options"><div class="form-check"><input class="form-check-input" id="membaca" name="hobi" type="checkbox" value="Membaca"><label class="form-check-label" for="membaca">Membaca</label></div><div class="form-check"><input class="form-check-input" id="koding" name="hobi" type="checkbox" value="Koding"><label class="form-check-label" for="koding">Koding</label></div><div class="form-check"><input class="form-check-input" id="berenang" name="hobi" type="checkbox" value="Berenang"><label class="form-check-label" for="berenang">Berenang</label></div><div class="form-check"><input class="form-check-input" id="menggambar" name="hobi" type="checkbox" value="Menggambar"><label class="form-check-label" for="menggambar">Menggambar</label></div></div></fieldset>
+        <button class="btn" type="submit">Kirim formulir ↗</button><button class="btn btn-outline ms-sm-2 mt-2 mt-sm-0" type="reset">Reset formulir</button><p class="form-note mt-3 mb-0">Formulir ini merupakan demonstrasi untuk tugas. Data tidak dikirim atau disimpan ke server.</p><div class="form-result" id="formResult" role="status" aria-live="polite"></div>
+      </form></div>
+    </div></section>
+  </main>
+
+  <footer><div class="container footer-row"><div><a class="brand" href="#beranda"><span class="brand-mark">☕</span><span>ruang biji</span></a><p>Menemukan cerita dalam setiap seduhan.</p><p class="student-identity">NIM: <strong>A12.2025.07395</strong><br>Nama: <strong>Khusnul Khotimah</strong></p><p>© <span id="year"></span> Ruang Biji. UTS Pemrograman Web Dasar.</p></div><div class="footer-links"><a href="#beranda">Beranda</a><a href="#produk">Produk</a><a href="#formulir">Formulir pelanggan</a></div></div></footer>
+
+  <div class="modal" id="productModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-content"><button class="close-modal" id="closeModal" type="button" aria-label="Tutup detail">×</button><div class="modal-image"><img id="modalImg" src="" alt=""></div><div class="modal-details"><span class="section-kicker" id="modalOrigin"></span><h3 id="modalTitle">Detail produk</h3><p id="modalDesc"></p><p><strong>Catatan produk</strong><br><span id="modalNotes"></span></p><h4 id="modalPrice"></h4><button class="btn mt-3" id="modalChoose" type="button">Pilih produk ↗</button></div></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
